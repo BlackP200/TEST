@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--Tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.config.js"></script>
-    <!--CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-black text-white">
-    <header></header>
-    <main class="flex justify-center items-center h-[100vh]">
-        <h1 class="text-[50px] font-bold">TEMPLATE</h1>
-    </main>
-    <footer></footer>
-    
-    <!--Script-->
-    
-    <script href="script.js"></script>
+<body class="flex justify-center items-center h-screen">
+    <div class="w-24 h-10 rounded-3xl bg-gray-100 shadow-md shadow-gray-400 inset-2 ring-2 ring-inset ring-offset-3 ring-green-600 flex items-center" id="toggle">
+        <div class="box bg-green-600 rounded-full h-8 w-8 ml-1 transition ease-in-out" id="toggleRound"></div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
